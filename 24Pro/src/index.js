@@ -1,8 +1,15 @@
 // Importações
 import React from 'react';
-import { createRoot } from 'react-dom/client';
+import ReactDOM from  'react-dom/client';
 
 // Estrutura do render
-const rootElement = document.getElementById('root');
-const root = createRoot(rootElement);
-root.render(<h1>Meu primeiro render</h1>);
+class Principal extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1>Inicio Do Fim</h1>  
+    
+        </div>
+    );
+  };
+}
