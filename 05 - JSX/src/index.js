@@ -1,8 +1,13 @@
-// Importações
+// Importar módulos
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 
-const elemento = React.createElement('h1', {}, 'Sem JSX');
-// Estrutura do render
-React.render(elemento, document.getElementById('root'));
+// Componente
+class MeuComponente extends React.Component{
+    render(){
+        return <h1>Meu primeiro componente</h1>; 
+    }
+}
 
+// Render
+ReactDOM.render(<MeuComponente />, document.getElementById('root'));
