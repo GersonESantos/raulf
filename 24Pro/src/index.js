@@ -13,3 +13,4 @@ class Principal extends React.Component {
     );
   };
 }
+ReactDOM.render(<Principal />, document.getElementById('root'));
